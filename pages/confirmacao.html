@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/styles/reset.css" />
+    <link
+      rel="shortcut icon"
+      href="../assets/svg/logo-itau 1.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../assets/styles/confirmacao-style.css" />
+    <title>Abertura de Conta</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="../assets/svg/logo-itau 1.svg"
+        alt="Logo do Itaú"
+        class="logo__itau"
+      />
+      <img
+        src="../assets/svg/ItauEmpresasText 1.svg"
+        alt="Itaú Empresas"
+        class="logo__itau-empresas"
+      />
+    </header>
+    <h1 class="title__form">Abertura de conta PJ</h1>
+    <main>
+      <form>
+        <div class="subtitle__form-confirm">
+          <h2>seus dados estão corretos?</h2>
+        </div>
+
+        <div class="form__container">
+          <div class="form__item form__item-cnpj">
+            <label for="cnpj">cnpj</label
+            ><input
+              type="text"
+              id="cnpj"
+              name="cnpj"
+              placeholder="00.000.000/0001-00"
+              class="input__padrao input__cnpj"
+            />
+          </div>
+          <div id="razaoSocialItem" class="form__item">
+            <label for="razaoSocial">razão social</label
+            ><input
+              type="text"
+              id="razaoSocial"
+              name="razaoSocial"
+              placeholder="Oliveira Azeites LTDA"
+              class="input__padrao input__razao-social"
+            />
+          </div>
+          <div class="form__item form__item-cpf-representante">
+            <label for="cpfRepresentanteLegal">cpf representante legal</label
+            ><input
+              type="text"
+              id="cpfRepresentanteLegal"
+              name="cpfRepresentanteLegal"
+              placeholder="000.000.000-00"
+              class="input__padrao input__cpf-representante"
+            />
+          </div>
+          <div class="form__item">
+            <label for="nomeDoRepresentanteLegal"
+              >nome do representante legal</label
+            ><input
+              type="text"
+              id="nomeRepresentanteLegal"
+              name="nomeRepresentanteLegal"
+              placeholder="Olivardo Oliveira da Silva"
+              class="input__padrao input__nome-representante"
+            />
+          </div>
+          <div class="form__item form__item-apelido">
+            <label for="comoDesejaSerChamado">como deseja ser chamado?</label
+            ><input
+              type="text"
+              id="comoDesejaSerChamado"
+              name="comoDesejaSerChamado"
+              placeholder="Sr. Olivardo"
+              class="input__padrao input__nickname"
+            />
+          </div>
+          <div class="form__item form__item-quantidade-funcionarios">
+            <label for="quantidadeDeFuncionarios"
+              >quantidade de funcionários</label
+            ><input
+              type="text"
+              id="quantidadeDeFuncionarios"
+              name="quantidadeDeFuncionarios"
+              placeholder="1.000"
+              class="input__padrao input__quantidade-funcionarios"
+            />
+          </div>
+          <div class="form__item">
+            <label for="faturamentoAnual">faturamento anual</label
+            ><input
+              type="text"
+              id="faturamentoAnual"
+              name="faturamentoAnual"
+              placeholder="R$ 1.000.000,00"
+              class="input__padrao input__faturamento-anual"
+            />
+          </div>
+        </div>
+
+        <div class="buttons-box">
+          <a class="anchor__voltar" href="../pages/index.html">voltar</a>
+          <a class="anchor__continuar" href="../pages/efetivacao.html"
+            >continuar</a
+          >
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

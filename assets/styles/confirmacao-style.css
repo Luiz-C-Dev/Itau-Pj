@@ -1,0 +1,53 @@
+@import url(./style.css);
+
+.input__padrao{
+  background-color: var(--secondary-input-background);
+}
+
+.subtitle__form-confirm {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: var(--pattern-font-weigth);
+  padding-top: 2.188rem;
+  margin-bottom: 4.6rem;
+}
+
+.buttons-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 6rem auto 0 auto;
+  border: none;
+  border-radius: 8px;
+}
+
+.anchor__voltar {
+  padding: 0.875rem 3.375rem;
+  background-color: var(--secondary-color);
+  color: var(--main-text-color);
+  border: 3px solid #000000;
+  border-radius: 8px;
+  margin-left: 2.438rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: var(--pattern-font-weigth);
+}
+
+.anchor__voltar:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.anchor__voltar:active {
+  border-color: #106eb0;
+}
+
+.anchor__continuar {
+  padding: 0.938rem 5.125rem;
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 8px;
+  margin-right: 1.8rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: var(--pattern-font-weigth);
+  color: var(--secondary-color);
+}

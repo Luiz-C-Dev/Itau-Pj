@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --main-color: #ec7000;
+  --main-text-color: #000000;
+  --main-legend-color: #56504c;
+  --secondary-color: #ffffff;
+  --invalid-color: #b71c1c;
+  --primmary-input-background: #fbf8f8;
+  --secondary-input-background: #d9d9d9;
+  --pattern-font-weigth: 700;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: var(--main-color);
+}
+
+header {
+  margin-bottom: 3rem;
+}
+
+.logo__itau {
+  margin: 2rem 0 0 4rem;
+}
+
+.logo__itau-empresas {
+  margin-left: 2.3rem;
+}
+
+.title__form {
+  color: var(--secondary-color);
+  font-size: 2.813rem;
+  font-weight: var(--pattern-font-weigth);
+  text-align: center;
+}
+
+form {
+  background-color: var(--secondary-color);
+  width: 1024px;
+  height: 702px;
+  margin: 2.3rem auto 0 auto;
+  border-radius: 8px;
+  padding: 0 30px 0 20px;
+}
+
+.subtitle__form {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: var(--pattern-font-weigth);
+  padding: 25px 0 50px 0;
+}
+
+.form__container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 2.5rem;
+}
+
+.form__item {
+  display: flex;
+  flex-direction: column;
+}
+
+#razaoSocialItem {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.form__item-cnpj,
+.form__item-cpf-representante,
+.form__item-quantidade-funcionarios {
+  margin: 0 32px 0 39px;
+}
+
+.form__item-apelido {
+  margin-left: 35px;
+}
+
+form label {
+  color: var(--main-legend-color);
+  font-weight: var(--pattern-font-weigth);
+  font-size: 1.125rem;
+  margin-bottom: 0.8rem;
+}
+
+.input__padrao {
+  font-family: "Inter", sans-serif;
+  font-weight: var(--pattern-font-weigth);
+  font-size: 1.125rem;
+  background-color: var(--primmary-input-background);
+  border: none;
+  border-radius: 5px;
+}
+
+::placeholder {
+  padding-left: 1.25rem;
+}
+
+.input__cnpj {
+  width: 269px;
+  height: 57px;
+}
+
+.input__cpf-representante {
+  width: 242px;
+  height: 57px;
+}
+
+.input__quantidade-funcionarios {
+  width: 164px;
+  height: 57px;
+}
+
+.input__razao-social {
+  width: 474px;
+  height: 57px;
+}
+
+.input__nome-representante {
+  width: 264px;
+  height: 57px;
+}
+
+.input__faturamento-anual {
+  width: 210px;
+  height: 57px;
+}
+
+.input__nickname {
+  width: 264px;
+  height: 57px;
+}
+
+.checkbox-box {
+  margin-left: 40px;
+}
+
+.checkbox__legend {
+  color: var(--main-legend-color);
+  font-size: 0.75rem;
+}
+
+input:invalid{
+  border: 1px solid var(--invalid-color);
+}
+
+.error__message {
+  color: var(--invalid-color);
+}
+
+.buttons-box {
+  display: flex;
+  justify-content: center;
+  margin: 8.5rem auto 0 auto;
+}
+
+.anchor__abrir-conta-pj {
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  font-weight: var(--pattern-font-weigth);
+  text-decoration: none;
+  padding: 0.875rem 3.375rem;
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 8px;
+  transition: 20ms;
+}
+
+.anchor__abrir-conta-pj:hover{
+  cursor: pointer;
+}
+
+button:disabled{
+  background-color: var(--secondary-input-background);
+}

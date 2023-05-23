@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --main-color: #ec7000;
+  --main-legend-color: #56504c;
+  --secondary-color: #ffffff;
+  --top-border-card: #106eb0;
+  --pattern-font-weigth: 700;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: var(--main-color);
+}
+
+header {
+  margin-bottom: 3rem;
+}
+
+.logo__itau {
+  margin: 2rem 0 0 4rem;
+}
+
+.logo__itau-empresas {
+  margin-left: 2.3rem;
+}
+
+.main__title {
+  color: var(--secondary-color);
+  font-size: 45px;
+  font-weight: var(--pattern-font-weigth);
+  text-align: center;
+}
+
+main {
+  display: flex;
+}
+
+.container {
+  width: 50%;
+}
+
+.container__box {
+  margin-left: 4rem;
+}
+
+.container__title {
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--secondary-color);
+  margin-top: 5.25rem;
+}
+
+.box__container__description {
+  width: 52rem;
+  margin-top: 2.25rem;
+}
+
+.container__description {
+  font-size: 3.75rem;
+  font-weight: var(--pattern-font-weigth);
+  color: var(--secondary-color);
+}
+
+.result__box {
+  width: 36.5rem;
+  height: 25.25rem;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  margin-top: 2.25rem;
+}
+
+.dl__box {
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+}
+
+.dl__title {
+  padding-top: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-weight: var(--pattern-font-weigth);
+}
+
+.dl__item {
+  margin: 0 0 2.25rem 2.188rem;
+  color: var(--main-legend-color);
+  font-weight: var(--pattern-font-weigth);
+}
+
+strong {
+  color: #000000;
+}
+
+.cards__container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem 0 0 9rem;
+}
+
+.card__item {
+  width: 316px;
+  height: 216px;
+  background-color: var(--secondary-color);
+  margin: 1.562rem 1.75rem;
+  border-top: 12px solid #106eb0;
+  border-radius: 8px;
+}
+
+.card__box {
+  display: flex;
+  align-items: center;
+  margin: 1.563rem 0 0 1rem;
+}
+
+.card__box h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-left: 12px;
+}
+
+.card__box img{
+  width: 24px;
+  height: 24px;
+}
+
+.card__title {
+  font-weight: 400;
+}
+
+.break-capital-giro {
+  width: 12.125rem;
+}
+
+.break-credit-card {
+  width: 19rem;
+}
+
+.card__description {
+  width: 17rem;
+  color: var(--main-legend-color);
+  margin: 1.188rem 0 0 1rem;
+}
+
+.card__description p {
+  margin-bottom: 0.5rem;
+}
